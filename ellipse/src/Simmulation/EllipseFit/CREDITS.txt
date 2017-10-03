@@ -1,0 +1,4 @@
+Least Square Ellipse Fit
+by ptahmose
+
+https://github.com/ptahmose/EllipseFitPlayground

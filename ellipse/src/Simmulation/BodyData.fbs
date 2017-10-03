@@ -1,0 +1,19 @@
+namespace BodyData;
+
+struct Point {
+	x: double;
+	y: double;
+}
+
+table Body {
+	name: string;
+	positions: [Point];
+	momenta: [Point];
+	parent: string;
+}
+
+table Bodies {
+	bodies: [Body];
+}
+
+root_type Bodies;

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "fonts" />
+	<font file="main.fnt" />
+	<set path = "images" />
+    <atlas>
+        <image file="follow.png" cols="2" />
+        <image file="simmulate.png" cols="2" />
+        <image file="info.png" cols="2" />
+        <image file="debug.png" cols="2" />
+    </atlas>    
+</resources>

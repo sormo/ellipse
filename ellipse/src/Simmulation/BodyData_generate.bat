@@ -1,0 +1,1 @@
+call ..\Flatbuffers\flatc.exe --cpp --gen-object-api BodyData.fbs

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\EllipseMain.cpp" />
+    <ClCompile Include="..\src\Primitives\Ellipse.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitives\Line.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitives\Primitive.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitives\Circle.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitives\Polyline.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Simmulation\SimmulationStepper.cpp">
+      <Filter>Simmulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Simmulation\CelestialBody.cpp">
+      <Filter>Simmulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Simmulation\SolarSystem.cpp">
+      <Filter>Simmulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common.cpp" />
+    <ClCompile Include="..\src\Simmulation\ConicApproximation.cpp">
+      <Filter>Simmulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainActor.cpp" />
+    <ClCompile Include="..\src\Gui\Button.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Gui\Toolbar.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitives\Hyperbola.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitives\PrimitiveDraw.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Primitives\Text.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Gui\Slider.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Animation\AnimationBody.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Animation\AnimationBodyInfoUpdater.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Animation\AnimationBodyTree.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Animation\AnimationConic.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Animation\AnimationInterpolation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Animation\AnimationSystem.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Tools\PlanetCreatorTool.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Tools\Tools.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/main.cpp" />
+    <ClCompile Include="..\..\nanovg\src\nanovg.c">
+      <Filter>Nanovg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\EllipseMain.h" />
+    <ClInclude Include="..\src\Primitives\Ellipse.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Primitives\Line.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Primitives\Primitive.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Primitives\Circle.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common.h" />
+    <ClInclude Include="..\src\Primitives\Polyline.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Simmulation\SimmulationStepper.h">
+      <Filter>Simmulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Simmulation\CelestialBody.h">
+      <Filter>Simmulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Simmulation\SolarSystem.h">
+      <Filter>Simmulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Simmulation\EllipseFit\EllipseParameters.h">
+      <Filter>Simmulation\EllipseFit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Simmulation\EllipseFit\LeastSquareEllipseFit.h">
+      <Filter>Simmulation\EllipseFit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Simmulation\ConicApproximation.h">
+      <Filter>Simmulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainActor.h" />
+    <ClInclude Include="..\src\Gui\Button.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Gui\Toolbar.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Primitives\Hyperbola.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Primitives\PrimitiveDraw.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Primitives\Text.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gui\Slider.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Animation\AnimationBody.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Animation\AnimationBodyInfoUpdater.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Animation\AnimationBodyTree.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Animation\AnimationConic.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Animation\AnimationInterpolation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Animation\AnimationSystem.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Tools\PlanetCreatorTool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Tools\Tools.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nanovg\src\fontstash.h">
+      <Filter>Nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nanovg\src\nanovg.h">
+      <Filter>Nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nanovg\src\nanovg_gl.h">
+      <Filter>Nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nanovg\src\nanovg_gl_utils.h">
+      <Filter>Nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nanovg\src\stb_image.h">
+      <Filter>Nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nanovg\src\stb_truetype.h">
+      <Filter>Nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Camera.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Primitives">
+      <UniqueIdentifier>{a379452e-f9c9-4214-9c2a-e951c1cc15f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simmulation">
+      <UniqueIdentifier>{58411022-68dc-44f6-b31d-8beff410b29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{b233db86-6850-416e-ab1f-fd963e77483a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{b21e06f8-35f2-4f0c-a927-090f472eeee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{810a52a4-f045-4c7d-9403-c342434e7bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simmulation\EllipseFit">
+      <UniqueIdentifier>{7d61dfa1-f645-4510-aad6-3d9d5e7fc1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nanovg">
+      <UniqueIdentifier>{3df1fafa-3bbf-49bf-8b69-dcd70d4f6074}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

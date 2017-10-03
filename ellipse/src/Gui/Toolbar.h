@@ -1,0 +1,7 @@
+namespace gui
+{
+	class Toolbar
+	{
+
+	};
+}
